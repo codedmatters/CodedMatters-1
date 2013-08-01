@@ -1,0 +1,9 @@
+[submodule "addons/ofxGameCamera"]
+	path = addons/ofxGameCamera
+	url = https://github.com/Flightphase/ofxGameCamera.git
+[submodule "addons/ofxSSAO"]
+	path = addons/ofxSSAO
+	url = https://github.com/Larsberg/ofxSSAO.git
+[submodule "addons/ofxTwBar"]
+	path = addons/ofxTwBar
+	url = https://github.com/daanvanhasselt/ofxTwBar.git

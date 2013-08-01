@@ -8,16 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		311219F417974F3C00607B95 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 311219F217974F3C00607B95 /* Particle.cpp */; };
-		31121A0F1797536300607B95 /* ofxGameCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A0B1797536300607B95 /* ofxGameCamera.cpp */; };
-		31121A1C1797545400607B95 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A151797545400607B95 /* tinyxml.cpp */; };
-		31121A1D1797545400607B95 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A171797545400607B95 /* tinyxmlerror.cpp */; };
-		31121A1E1797545400607B95 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A181797545400607B95 /* tinyxmlparser.cpp */; };
-		31121A1F1797545400607B95 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A1A1797545400607B95 /* ofxXmlSettings.cpp */; };
-		31121A381797565500607B95 /* libAntTweakBar-i386-10.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31121A2E1797565500607B95 /* libAntTweakBar-i386-10.5.a */; };
-		31121A391797565500607B95 /* libAntTweakBar-i386-10.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31121A2F1797565500607B95 /* libAntTweakBar-i386-10.6.a */; };
-		31121A3A1797565500607B95 /* AntTweakBar.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31121A321797565500607B95 /* AntTweakBar.lib */; };
-		31121A3B1797565500607B95 /* ofxTwBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A351797565500607B95 /* ofxTwBar.cpp */; };
-		31121A6117975EED00607B95 /* ofxSSAO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31121A5717975EED00607B95 /* ofxSSAO.cpp */; };
 		31121A6C1797625A00607B95 /* ssao_composite.frag in Sources */ = {isa = PBXBuildFile; fileRef = 31121A661797625A00607B95 /* ssao_composite.frag */; };
 		31121A6D1797625A00607B95 /* ssao_composite.vert in Sources */ = {isa = PBXBuildFile; fileRef = 31121A671797625A00607B95 /* ssao_composite.vert */; };
 		31121A6E1797625A00607B95 /* ssao_deferred.frag in Sources */ = {isa = PBXBuildFile; fileRef = 31121A681797625A00607B95 /* ssao_deferred.frag */; };
@@ -32,6 +22,16 @@
 		31B83432179ABC270000B16B /* aa.vert in Sources */ = {isa = PBXBuildFile; fileRef = 31B83430179ABC270000B16B /* aa.vert */; };
 		31C45114179D4571004CBF03 /* depthBuffer.frag in Sources */ = {isa = PBXBuildFile; fileRef = 31C45112179D4571004CBF03 /* depthBuffer.frag */; };
 		31C45115179D4571004CBF03 /* depthBuffer.vert in Sources */ = {isa = PBXBuildFile; fileRef = 31C45113179D4571004CBF03 /* depthBuffer.vert */; };
+		31C8F4AF17AA990600E414CB /* ofxGameCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F46B17AA989600E414CB /* ofxGameCamera.cpp */; };
+		31C8F4B017AA990F00E414CB /* ofxSSAO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F48717AA989600E414CB /* ofxSSAO.cpp */; };
+		31C8F4D417AA996500E414CB /* libAntTweakBar-i386-10.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C8F4C117AA996500E414CB /* libAntTweakBar-i386-10.5.a */; };
+		31C8F4D517AA996500E414CB /* libAntTweakBar-i386-10.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C8F4C217AA996500E414CB /* libAntTweakBar-i386-10.6.a */; };
+		31C8F4D617AA996500E414CB /* AntTweakBar.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C8F4C517AA996500E414CB /* AntTweakBar.lib */; };
+		31C8F4D717AA996500E414CB /* ofxTwBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F4C817AA996500E414CB /* ofxTwBar.cpp */; };
+		31C8F4D817AA996500E414CB /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F4CC17AA996500E414CB /* tinyxml.cpp */; };
+		31C8F4D917AA996500E414CB /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F4CE17AA996500E414CB /* tinyxmlerror.cpp */; };
+		31C8F4DA17AA996500E414CB /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F4CF17AA996500E414CB /* tinyxmlparser.cpp */; };
+		31C8F4DB17AA996500E414CB /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F4D117AA996500E414CB /* ofxXmlSettings.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -87,28 +87,6 @@
 /* Begin PBXFileReference section */
 		311219F217974F3C00607B95 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
 		311219F317974F3C00607B95 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
-		311219F61797536300607B95 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		31121A0B1797536300607B95 /* ofxGameCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGameCamera.cpp; sourceTree = "<group>"; };
-		31121A0C1797536300607B95 /* ofxGameCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxGameCamera.h; sourceTree = "<group>"; };
-		31121A151797545400607B95 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
-		31121A161797545400607B95 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
-		31121A171797545400607B95 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
-		31121A181797545400607B95 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
-		31121A1A1797545400607B95 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
-		31121A1B1797545400607B95 /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
-		31121A211797565500607B95 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		31121A281797565500607B95 /* AntTweakBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntTweakBar.h; sourceTree = "<group>"; };
-		31121A2B1797565500607B95 /* libAntTweakBar.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libAntTweakBar.so; sourceTree = "<group>"; };
-		31121A2C1797565500607B95 /* libAntTweakBar.so.ldd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libAntTweakBar.so.ldd; sourceTree = "<group>"; };
-		31121A2E1797565500607B95 /* libAntTweakBar-i386-10.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAntTweakBar-i386-10.5.a"; sourceTree = "<group>"; };
-		31121A2F1797565500607B95 /* libAntTweakBar-i386-10.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAntTweakBar-i386-10.6.a"; sourceTree = "<group>"; };
-		31121A311797565500607B95 /* AntTweakBar.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntTweakBar.dll; sourceTree = "<group>"; };
-		31121A321797565500607B95 /* AntTweakBar.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AntTweakBar.lib; sourceTree = "<group>"; };
-		31121A331797565500607B95 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		31121A351797565500607B95 /* ofxTwBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTwBar.cpp; sourceTree = "<group>"; };
-		31121A361797565500607B95 /* ofxTwBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTwBar.h; sourceTree = "<group>"; };
-		31121A5717975EED00607B95 /* ofxSSAO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSSAO.cpp; sourceTree = "<group>"; };
-		31121A5817975EED00607B95 /* ofxSSAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSSAO.h; sourceTree = "<group>"; };
 		31121A661797625A00607B95 /* ssao_composite.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ssao_composite.frag; sourceTree = "<group>"; };
 		31121A671797625A00607B95 /* ssao_composite.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ssao_composite.vert; sourceTree = "<group>"; };
 		31121A681797625A00607B95 /* ssao_deferred.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ssao_deferred.frag; sourceTree = "<group>"; };
@@ -123,6 +101,25 @@
 		31B83430179ABC270000B16B /* aa.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = aa.vert; sourceTree = "<group>"; };
 		31C45112179D4571004CBF03 /* depthBuffer.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = depthBuffer.frag; sourceTree = "<group>"; };
 		31C45113179D4571004CBF03 /* depthBuffer.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = depthBuffer.vert; sourceTree = "<group>"; };
+		31C8F46B17AA989600E414CB /* ofxGameCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGameCamera.cpp; sourceTree = "<group>"; };
+		31C8F46C17AA989600E414CB /* ofxGameCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGameCamera.h; sourceTree = "<group>"; };
+		31C8F48717AA989600E414CB /* ofxSSAO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSSAO.cpp; sourceTree = "<group>"; };
+		31C8F48817AA989600E414CB /* ofxSSAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSSAO.h; sourceTree = "<group>"; };
+		31C8F4BB17AA996500E414CB /* AntTweakBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntTweakBar.h; sourceTree = "<group>"; };
+		31C8F4BE17AA996500E414CB /* libAntTweakBar.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libAntTweakBar.so; sourceTree = "<group>"; };
+		31C8F4BF17AA996500E414CB /* libAntTweakBar.so.ldd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libAntTweakBar.so.ldd; sourceTree = "<group>"; };
+		31C8F4C117AA996500E414CB /* libAntTweakBar-i386-10.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAntTweakBar-i386-10.5.a"; sourceTree = "<group>"; };
+		31C8F4C217AA996500E414CB /* libAntTweakBar-i386-10.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAntTweakBar-i386-10.6.a"; sourceTree = "<group>"; };
+		31C8F4C417AA996500E414CB /* AntTweakBar.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntTweakBar.dll; sourceTree = "<group>"; };
+		31C8F4C517AA996500E414CB /* AntTweakBar.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AntTweakBar.lib; sourceTree = "<group>"; };
+		31C8F4C817AA996500E414CB /* ofxTwBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxTwBar.cpp; sourceTree = "<group>"; };
+		31C8F4C917AA996500E414CB /* ofxTwBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxTwBar.h; sourceTree = "<group>"; };
+		31C8F4CC17AA996500E414CB /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		31C8F4CD17AA996500E414CB /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		31C8F4CE17AA996500E414CB /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		31C8F4CF17AA996500E414CB /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		31C8F4D117AA996500E414CB /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		31C8F4D217AA996500E414CB /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -156,6 +153,7 @@
 			files = (
 				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
 				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
+				31C8F4D417AA996500E414CB /* libAntTweakBar-i386-10.5.a in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
@@ -165,171 +163,20 @@
 				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
 				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
 				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				31C8F4D617AA996500E414CB /* AntTweakBar.lib in Frameworks */,
 				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
 				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
 				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				31C8F4D517AA996500E414CB /* libAntTweakBar-i386-10.6.a in Frameworks */,
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
 				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
-				31121A381797565500607B95 /* libAntTweakBar-i386-10.5.a in Frameworks */,
-				31121A391797565500607B95 /* libAntTweakBar-i386-10.6.a in Frameworks */,
-				31121A3A1797565500607B95 /* AntTweakBar.lib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		311219F51797536300607B95 /* ofxGameCamera */ = {
-			isa = PBXGroup;
-			children = (
-				311219F61797536300607B95 /* .gitignore */,
-				31121A0A1797536300607B95 /* src */,
-			);
-			name = ofxGameCamera;
-			path = ../../../addons/ofxGameCamera;
-			sourceTree = "<group>";
-		};
-		31121A0A1797536300607B95 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				31121A0B1797536300607B95 /* ofxGameCamera.cpp */,
-				31121A0C1797536300607B95 /* ofxGameCamera.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		31121A131797545400607B95 /* ofxXmlSettings */ = {
-			isa = PBXGroup;
-			children = (
-				31121A141797545400607B95 /* libs */,
-				31121A191797545400607B95 /* src */,
-			);
-			name = ofxXmlSettings;
-			path = ../../../addons/ofxXmlSettings;
-			sourceTree = "<group>";
-		};
-		31121A141797545400607B95 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				31121A151797545400607B95 /* tinyxml.cpp */,
-				31121A161797545400607B95 /* tinyxml.h */,
-				31121A171797545400607B95 /* tinyxmlerror.cpp */,
-				31121A181797545400607B95 /* tinyxmlparser.cpp */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		31121A191797545400607B95 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				31121A1A1797545400607B95 /* ofxXmlSettings.cpp */,
-				31121A1B1797545400607B95 /* ofxXmlSettings.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		31121A201797565500607B95 /* ofxTwBar */ = {
-			isa = PBXGroup;
-			children = (
-				31121A211797565500607B95 /* .gitignore */,
-				31121A251797565500607B95 /* libs */,
-				31121A331797565500607B95 /* README */,
-				31121A341797565500607B95 /* src */,
-			);
-			name = ofxTwBar;
-			path = ../../../addons/ofxTwBar;
-			sourceTree = "<group>";
-		};
-		31121A251797565500607B95 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				31121A261797565500607B95 /* AntTweakBar */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		31121A261797565500607B95 /* AntTweakBar */ = {
-			isa = PBXGroup;
-			children = (
-				31121A271797565500607B95 /* include */,
-				31121A291797565500607B95 /* lib */,
-			);
-			path = AntTweakBar;
-			sourceTree = "<group>";
-		};
-		31121A271797565500607B95 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				31121A281797565500607B95 /* AntTweakBar.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		31121A291797565500607B95 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				31121A2A1797565500607B95 /* linux */,
-				31121A2D1797565500607B95 /* osx */,
-				31121A301797565500607B95 /* win */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		31121A2A1797565500607B95 /* linux */ = {
-			isa = PBXGroup;
-			children = (
-				31121A2B1797565500607B95 /* libAntTweakBar.so */,
-				31121A2C1797565500607B95 /* libAntTweakBar.so.ldd */,
-			);
-			path = linux;
-			sourceTree = "<group>";
-		};
-		31121A2D1797565500607B95 /* osx */ = {
-			isa = PBXGroup;
-			children = (
-				31121A2E1797565500607B95 /* libAntTweakBar-i386-10.5.a */,
-				31121A2F1797565500607B95 /* libAntTweakBar-i386-10.6.a */,
-			);
-			path = osx;
-			sourceTree = "<group>";
-		};
-		31121A301797565500607B95 /* win */ = {
-			isa = PBXGroup;
-			children = (
-				31121A311797565500607B95 /* AntTweakBar.dll */,
-				31121A321797565500607B95 /* AntTweakBar.lib */,
-			);
-			path = win;
-			sourceTree = "<group>";
-		};
-		31121A341797565500607B95 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				31121A351797565500607B95 /* ofxTwBar.cpp */,
-				31121A361797565500607B95 /* ofxTwBar.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		31121A3D17975EED00607B95 /* ofxSSAO */ = {
-			isa = PBXGroup;
-			children = (
-				31121A5617975EED00607B95 /* src */,
-			);
-			name = ofxSSAO;
-			path = ../../../addons/ofxSSAO;
-			sourceTree = "<group>";
-		};
-		31121A5617975EED00607B95 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				31121A5717975EED00607B95 /* ofxSSAO.cpp */,
-				31121A5817975EED00607B95 /* ofxSSAO.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		31121A651797625A00607B95 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,13 +199,160 @@
 			path = bin/data/shaders;
 			sourceTree = SOURCE_ROOT;
 		};
+		31C8F45517AA989600E414CB /* ofxGameCamera */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F46A17AA989600E414CB /* src */,
+			);
+			name = ofxGameCamera;
+			path = addons/ofxGameCamera;
+			sourceTree = "<group>";
+		};
+		31C8F46A17AA989600E414CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F46B17AA989600E414CB /* ofxGameCamera.cpp */,
+				31C8F46C17AA989600E414CB /* ofxGameCamera.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		31C8F46D17AA989600E414CB /* ofxSSAO */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F48617AA989600E414CB /* src */,
+			);
+			name = ofxSSAO;
+			path = addons/ofxSSAO;
+			sourceTree = "<group>";
+		};
+		31C8F48617AA989600E414CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F48717AA989600E414CB /* ofxSSAO.cpp */,
+				31C8F48817AA989600E414CB /* ofxSSAO.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		31C8F4B317AA996500E414CB /* ofxTwBar */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4B817AA996500E414CB /* libs */,
+				31C8F4C717AA996500E414CB /* src */,
+			);
+			name = ofxTwBar;
+			path = addons/ofxTwBar;
+			sourceTree = "<group>";
+		};
+		31C8F4B817AA996500E414CB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4B917AA996500E414CB /* AntTweakBar */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		31C8F4B917AA996500E414CB /* AntTweakBar */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4BA17AA996500E414CB /* include */,
+				31C8F4BC17AA996500E414CB /* lib */,
+			);
+			path = AntTweakBar;
+			sourceTree = "<group>";
+		};
+		31C8F4BA17AA996500E414CB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4BB17AA996500E414CB /* AntTweakBar.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		31C8F4BC17AA996500E414CB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4BD17AA996500E414CB /* linux */,
+				31C8F4C017AA996500E414CB /* osx */,
+				31C8F4C317AA996500E414CB /* win */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		31C8F4BD17AA996500E414CB /* linux */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4BE17AA996500E414CB /* libAntTweakBar.so */,
+				31C8F4BF17AA996500E414CB /* libAntTweakBar.so.ldd */,
+			);
+			path = linux;
+			sourceTree = "<group>";
+		};
+		31C8F4C017AA996500E414CB /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4C117AA996500E414CB /* libAntTweakBar-i386-10.5.a */,
+				31C8F4C217AA996500E414CB /* libAntTweakBar-i386-10.6.a */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		31C8F4C317AA996500E414CB /* win */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4C417AA996500E414CB /* AntTweakBar.dll */,
+				31C8F4C517AA996500E414CB /* AntTweakBar.lib */,
+			);
+			path = win;
+			sourceTree = "<group>";
+		};
+		31C8F4C717AA996500E414CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4C817AA996500E414CB /* ofxTwBar.cpp */,
+				31C8F4C917AA996500E414CB /* ofxTwBar.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		31C8F4CA17AA996500E414CB /* ofxXmlSettings */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4CB17AA996500E414CB /* libs */,
+				31C8F4D017AA996500E414CB /* src */,
+			);
+			name = ofxXmlSettings;
+			path = addons/ofxXmlSettings;
+			sourceTree = "<group>";
+		};
+		31C8F4CB17AA996500E414CB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4CC17AA996500E414CB /* tinyxml.cpp */,
+				31C8F4CD17AA996500E414CB /* tinyxml.h */,
+				31C8F4CE17AA996500E414CB /* tinyxmlerror.cpp */,
+				31C8F4CF17AA996500E414CB /* tinyxmlparser.cpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		31C8F4D017AA996500E414CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F4D117AA996500E414CB /* ofxXmlSettings.cpp */,
+				31C8F4D217AA996500E414CB /* ofxXmlSettings.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				31121A3D17975EED00607B95 /* ofxSSAO */,
-				31121A201797565500607B95 /* ofxTwBar */,
-				31121A131797545400607B95 /* ofxXmlSettings */,
-				311219F51797536300607B95 /* ofxGameCamera */,
+				31C8F4B317AA996500E414CB /* ofxTwBar */,
+				31C8F4CA17AA996500E414CB /* ofxXmlSettings */,
+				31C8F45517AA989600E414CB /* ofxGameCamera */,
+				31C8F46D17AA989600E414CB /* ofxSSAO */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -472,6 +466,8 @@
 /* Begin PBXProject section */
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "emptyExample" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -532,25 +528,25 @@
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
 				311219F417974F3C00607B95 /* Particle.cpp in Sources */,
-				31121A0F1797536300607B95 /* ofxGameCamera.cpp in Sources */,
-				31121A1C1797545400607B95 /* tinyxml.cpp in Sources */,
-				31121A1D1797545400607B95 /* tinyxmlerror.cpp in Sources */,
-				31121A1E1797545400607B95 /* tinyxmlparser.cpp in Sources */,
-				31121A1F1797545400607B95 /* ofxXmlSettings.cpp in Sources */,
-				31121A3B1797565500607B95 /* ofxTwBar.cpp in Sources */,
-				31121A6117975EED00607B95 /* ofxSSAO.cpp in Sources */,
+				31C8F4DB17AA996500E414CB /* ofxXmlSettings.cpp in Sources */,
 				31121A6C1797625A00607B95 /* ssao_composite.frag in Sources */,
+				31C8F4DA17AA996500E414CB /* tinyxmlparser.cpp in Sources */,
 				31121A6D1797625A00607B95 /* ssao_composite.vert in Sources */,
+				31C8F4D817AA996500E414CB /* tinyxml.cpp in Sources */,
 				31121A6E1797625A00607B95 /* ssao_deferred.frag in Sources */,
 				31121A6F1797625A00607B95 /* ssao_deferred.vert in Sources */,
 				31121A701797625A00607B95 /* ssao_render.frag in Sources */,
 				31121A711797625A00607B95 /* ssao_render.vert in Sources */,
+				31C8F4D717AA996500E414CB /* ofxTwBar.cpp in Sources */,
 				31B0ECD517976D7D007D52DA /* lighting.frag in Sources */,
 				31B0ECD617976D7D007D52DA /* lighting.vert in Sources */,
+				31C8F4B017AA990F00E414CB /* ofxSSAO.cpp in Sources */,
 				31B83431179ABC270000B16B /* aa.frag in Sources */,
 				31B83432179ABC270000B16B /* aa.vert in Sources */,
 				312BD80C179B5080007B2AB1 /* filter.frag in Sources */,
+				31C8F4AF17AA990600E414CB /* ofxGameCamera.cpp in Sources */,
 				312BD80D179B5080007B2AB1 /* filter.vert in Sources */,
+				31C8F4D917AA996500E414CB /* tinyxmlerror.cpp in Sources */,
 				31C45114179D4571004CBF03 /* depthBuffer.frag in Sources */,
 				31C45115179D4571004CBF03 /* depthBuffer.vert in Sources */,
 			);
@@ -596,7 +592,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -630,7 +626,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -718,6 +714,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
@@ -812,6 +810,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
