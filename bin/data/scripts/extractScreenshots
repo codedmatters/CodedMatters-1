@@ -1,0 +1,65 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+cd ../
+cd framedata
+
+now=$(date +"%d_%m_%Y-%H_%M_%S")
+echo $now
+
+mkdir "../exported/$now"
+mkdir "../exported/$now/frames"
+mkdir "../exported/$now/frames/rgb"
+mkdir "../exported/$now/frames/depth"
+mkdir "../exported/$now/screenshots"
+mkdir "../exported/$now/screenshots/rgb"
+mkdir "../exported/$now/screenshots/depth"
+
+
+for dir in frames screenshots; do
+	echo "Moving to dir $dir"
+	cd $dir
+	for subdir in rgb depth; do
+		echo "Moving to dir $dir/$subdir"
+		cd $subdir
+		mkdir $now
+
+		# merge small tiles into vertical tiles
+		counter=0
+		numFiles=$(ls 2>/dev/null $counter.* | wc -l)
+		while [ $numFiles -gt 0 ]; do
+			subCounter=0
+			numSubFiles=$(ls 2>/dev/null $counter.$subCounter.* | wc -l)
+			while [ $numSubFiles -gt 0 ]; do
+				files=$(ls $counter.$subCounter.*)
+				
+				echo "Start vertical merge for $counter.$subCounter"
+				convert $files -append $counter.$subCounter.png
+				# keep the original files
+				mv $files $now
+
+				subCounter=$((subCounter + 1))
+				numSubFiles=$(ls 2>/dev/null $counter.$subCounter.* | wc -l)
+			done
+
+			counter=$(($counter + 1))
+			numFiles=$(ls 2>/dev/null $counter.* | wc -l)
+		done
+
+		# merge vertical tiles into single image
+		totalFrames=$counter
+		counter=0
+		while [ $counter -lt $totalFrames ]; do
+			files=$(ls $counter.*.png)
+			echo "Starting horizontal merge for frame $counter"
+			convert $files +append $counter.png
+			# delete the vertical tiles, move result to exported
+			rm $files
+			mv $counter.png ../../../exported/$now/$dir/$subdir/
+
+			counter=$(($counter + 1))
+		done
+
+		cd ../
+	done
+	cd ../
+done
