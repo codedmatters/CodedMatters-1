@@ -468,7 +468,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "emptyExample" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Coded Matter(s) 1" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -714,8 +714,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
@@ -810,8 +810,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
@@ -826,7 +826,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "emptyExample" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Coded Matter(s) 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
