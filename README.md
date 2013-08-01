@@ -1,3 +1,6 @@
+*Note*
+This application was built using openFrameworks, v0073. All the used addons are included in the project as submodules.
+
 ***CODED MATTER(S)***
 
 Visual Identity Software
