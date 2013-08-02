@@ -567,7 +567,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -592,7 +592,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -600,7 +600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -626,7 +626,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -714,13 +714,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxTwBar/libs/AntTweakBar/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxTwBar/libs/AntTweakBar/lib/win\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
@@ -810,13 +811,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxTwBar/libs/AntTweakBar/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxTwBar/libs/AntTweakBar/lib/win\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -8,6 +8,8 @@ void testApp::setup(){
     ofSetVerticalSync(true);
     ofSetFrameRate(30);
     
+    cam.setup();
+    cam.dampen = true;
     createGui();
     setInitialValues();
     setupPreviewFrameBuffer(previewSize);
@@ -112,7 +114,6 @@ void testApp::createGui(){
     bar.addParam("Vignette amount", &filterVignetteAmount, " min=-1.0 max=1.0 step=0.001 group='Filter'");
 
     bar.addSeparator();
-    bar.addParam("Enable AA (export only)", &enableAA, " group='Export settings'");
     bar.addParam("Enable depth map (export only)", &exportDepth, " group='Export settings'");
     bar.addParam("Show depth map", &drawDepth, " group='Export settings'");
     bar.addParam("Depth near value", &depthNear, " min=0.0 max=1000.0 step=0.01 group='Export settings'");
@@ -217,7 +218,6 @@ void testApp::setInitialValues(){
     particleSize = ofVec3f(xml.getValue("particleSizeX", 30), xml.getValue("particleSizeY", 4), xml.getValue("particleSizeZ", 4));
     particleSpeed = xml.getValue("particleSpeed", 0);
     
-    enableAA = xml.getValue("enableAA", true);
     enableCamera = xml.getValue("enableCamera", true);
     
     exportDepth = xml.getValue("exportDepth", true);
@@ -327,7 +327,6 @@ void testApp::saveSettings(){
     ofVec3f(xml.setValue("particleSizeX", particleSize.x), xml.setValue("particleSizeY", particleSize.y), xml.setValue("particleSizeZ", particleSize.z));
     xml.setValue("particleSpeed", particleSpeed);
     
-    xml.setValue("enableAA", enableAA);
     xml.setValue("enableCamera", enableCamera);
     
     xml.setValue("exportDepth", exportDepth);
@@ -750,7 +749,7 @@ void testApp::draw(){
         ofPopMatrix();
     }
     
-    enableSSAO = false;    
+    enableSSAO = false;
     drawScene(visibleParticles, previewSize.x, previewSize.y);
     enableSSAO = ssaoWasEnabled;
 
@@ -767,7 +766,7 @@ void testApp::draw(){
     if(enableFilter){
         filter.begin();
         filter.setUniform2f("textureSize", previewFbo.getWidth(), previewFbo.getHeight());
-        float exportScale = MAX(exportSize.x / 1280., exportSize.y / 720.);
+        float exportScale = MAX(previewSize.x / 1280., previewSize.y / 720.);
         filter.setUniform1f("vignetteSize", filterVignetteSize * exportScale);
         filter.setUniform1f("vignetteAmount", filterVignetteAmount);
     }
@@ -976,7 +975,6 @@ void testApp::saveFrame(string dir){
         lastExportSize = exportSize;
         setupExportFrameBuffer(exportSize);
     }
-
     
     // save rgb frame
     exportFbo.begin();
@@ -987,9 +985,19 @@ void testApp::saveFrame(string dir){
     if(showLogo){
         drawLogo();
     }
+    drawScene(particles, exportSize.x, exportSize.y);
     
-    antiAliasShader.begin();
-
+    exportFbo.end();
+    
+    // antialiasing and filtering
+    ofFbo::Settings settings;
+    settings.width = exportSize.x;
+    settings.height = exportSize.y;
+    ofFbo filteredExportFbo;
+    filteredExportFbo.allocate(settings);
+    filteredExportFbo.begin();
+    ofClear(0);
+    
     float exportScale = MAX(exportSize.x / 1280., exportSize.y / 720.);
     if(enableFilter){
         filter.begin();
@@ -998,12 +1006,20 @@ void testApp::saveFrame(string dir){
         filter.setUniform1f("vignetteAmount", filterVignetteAmount);
     }
     
-    drawScene(particles, exportSize.x, exportSize.y);
+    exportFbo.draw(0, exportSize.y, exportSize.x, -exportSize.y);
     
     if(enableFilter)
         filter.end();
+    filteredExportFbo.end();
     
+    // transfer to exportFBO, if needed with AA
+    exportFbo.begin();
+    ofClear(0);
+    
+    antiAliasShader.begin();
+    filteredExportFbo.draw(0, 0);
     antiAliasShader.end();
+
     exportFbo.end();
     
     

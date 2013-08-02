@@ -131,7 +131,6 @@ public:
     int waveOutStartFrame;
     
     ofShader antiAliasShader;
-    bool enableAA;
     
     bool exportDepth;
     bool drawDepth;
