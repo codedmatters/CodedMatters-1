@@ -1,5 +1,7 @@
 *Note*
+
 This application was built using openFrameworks, v0073. All the used addons are included in the project as submodules.
+When the application exports a frame, it actually splits up the frame and writes those images to disk to prevent a huge memory usage when exporting high resolution frames. To stitch these images back together into a single frame, use the script in /bin/data/scripts/extractScreenshots. This scripts needs the imagemagick 'convert' program to be installed and in your PATH.
 
 ***CODED MATTER(S)***
 
