@@ -6,13 +6,10 @@ cd framedata
 now=$(date +"%d_%m_%Y-%H_%M_%S")
 echo $now
 
-mkdir "../exported/$now"
-mkdir "../exported/$now/frames"
-mkdir "../exported/$now/frames/rgb"
-mkdir "../exported/$now/frames/depth"
-mkdir "../exported/$now/screenshots"
-mkdir "../exported/$now/screenshots/rgb"
-mkdir "../exported/$now/screenshots/depth"
+mkdir -p "../exported/$now/frames/rgb"
+mkdir -p "../exported/$now/frames/depth"
+mkdir -p "../exported/$now/screenshots/rgb"
+mkdir -p "../exported/$now/screenshots/depth"
 
 
 for dir in frames screenshots; do
