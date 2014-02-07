@@ -8,6 +8,11 @@ void testApp::setup(){
     ofSetVerticalSync(true);
     ofSetFrameRate(30);
     
+	// create the directories needed for export
+	char cmd[256];
+	sprintf(cmd, "mkdir -p %s %s %s %s", ofToDataPath("framedata/frames/rgb").c_str(), ofToDataPath("framedata/frames/depth").c_str(), ofToDataPath("framedata/screenshots/rgb").c_str(), ofToDataPath("framedata/screenshots/depth").c_str());
+	int a = system(cmd);
+	
     cam.setup();
     cam.dampen = true;
     createGui();

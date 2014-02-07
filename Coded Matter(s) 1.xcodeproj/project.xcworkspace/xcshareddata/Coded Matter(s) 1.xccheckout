@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFF51BE4-7C12-4514-B7AE-78AA088EB245</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Coded Matter(s) 1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07F54C3A-7ED5-403D-9BCB-4C669E4A4CD5</key>
+		<string>https://github.com/Flightphase/ofxGameCamera.git</string>
+		<key>11E88D00-3E2A-4C8F-B888-42AABC7B19D9</key>
+		<string>ssh://github.com/codedmatters/CodedMatters-1.git</string>
+		<key>22249C11-BD9F-450D-8468-E2CA964FB4A4</key>
+		<string>https://github.com/daanvanhasselt/ofxTwBar.git</string>
+		<key>B35A5063-2B4F-486B-AB62-59E2D09F5958</key>
+		<string>https://github.com/Larsberg/ofxSSAO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Coded Matter(s) 1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07F54C3A-7ED5-403D-9BCB-4C669E4A4CD5</key>
+		<string>../../addons/ofxGameCamera</string>
+		<key>11E88D00-3E2A-4C8F-B888-42AABC7B19D9</key>
+		<string>../..</string>
+		<key>22249C11-BD9F-450D-8468-E2CA964FB4A4</key>
+		<string>../../addons/ofxTwBar</string>
+		<key>B35A5063-2B4F-486B-AB62-59E2D09F5958</key>
+		<string>../../addons/ofxSSAO</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/codedmatters/CodedMatters-1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>11E88D00-3E2A-4C8F-B888-42AABC7B19D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>11E88D00-3E2A-4C8F-B888-42AABC7B19D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07F54C3A-7ED5-403D-9BCB-4C669E4A4CD5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxGameCamera</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B35A5063-2B4F-486B-AB62-59E2D09F5958</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxSSAO</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>22249C11-BD9F-450D-8468-E2CA964FB4A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxTwBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

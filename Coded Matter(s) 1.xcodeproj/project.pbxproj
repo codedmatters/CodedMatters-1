@@ -592,7 +592,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -626,7 +626,7 @@
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -714,8 +714,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
@@ -811,8 +811,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
-					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/osx",
+					"/Users/daanvanhasselt/openFrameworks/of_v0073_osx_release/apps/coded\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ matters/waves/addons/ofxTwBar/libs/AntTweakBar/lib/win",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
