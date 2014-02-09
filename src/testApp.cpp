@@ -264,8 +264,8 @@ void testApp::saveSettings(){
     xml.setValue("baseColorB", baseColor[2]);
     
     xml.setValue("baseColor2R", baseColor2[0]);
-    xml.setValue("baseColor2R", baseColor2[1]);
-    xml.setValue("baseColor2R", baseColor2[2]);
+    xml.setValue("baseColor2G", baseColor2[1]);
+    xml.setValue("baseColor2B", baseColor2[2]);
     
     xml.setValue("backgroundColorRotationAngle", backgroundColorRotationAngle);
     xml.setValue("backgroundBottomColorR", backgroundBottomColor[0]);
